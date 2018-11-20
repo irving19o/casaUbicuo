@@ -1,0 +1,18 @@
+#navBar{
+    z-index: 10; 
+    position: fixed; 
+    /* width: 100%; */
+}
+
+#table{
+    margin: auto;
+    overflow: auto;
+}
+
+.main{
+    margin-top: 56px;
+}
+
+.sketch-picker {
+        margin: auto;
+}
