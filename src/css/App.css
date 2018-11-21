@@ -56,3 +56,18 @@ z-index: 1050;
 .hidden{
     display: none;
 }
+.card-img-top{
+    margin: auto;
+    padding-top: 30px;
+    width: 25%;
+
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.55rem;
+}
+
+.btn-danger{
+    margin-left: 182px;
+}

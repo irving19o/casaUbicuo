@@ -24,7 +24,7 @@ class AlertTemplate extends Component {
     return (
       <div>
         <Alert color="danger" isOpen={this.props.isAlertShowed} toggle={this.onDismiss} >
-          La ventana se encuentra Abierta
+          ¡La ventana se encuentra abierta!
         </Alert>
       </div>
     );

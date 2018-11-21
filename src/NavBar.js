@@ -137,9 +137,9 @@ class NavBar extends Component {
                   <DropdownItem onClick={this.showDoorModal}>
                     Abrir/Cerrar Puerta
                   </DropdownItem>
-                  <DropdownItem onClick={this.showWindowModal}>
+                  {/* <DropdownItem onClick={this.showWindowModal}> 
                    Verificar estado de ventana
-                  </DropdownItem>
+                  </DropdownItem>*/}
 
                   <DropdownItem divider />
                   <DropdownItem disabled={true}>

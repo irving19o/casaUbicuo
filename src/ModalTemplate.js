@@ -7,6 +7,7 @@ import {
     ModalFooter 
 } from 'reactstrap';
 import ColorPicker from './ColorPicker';
+import Door from './Door'
 
 
 class ModalTemplate extends React.Component {
@@ -23,7 +24,10 @@ class ModalTemplate extends React.Component {
         if (modalBodyType =='ColorPicker') {
             modalRender = <ColorPicker></ColorPicker>
         }
-        
+        else if(modalBodyType == 'openCloseDoor'){
+            modalRender = <Door></Door>
+        }
+    
         return (
             <div>
                 <Modal isOpen={this.props.isOpen} >
@@ -36,7 +40,7 @@ class ModalTemplate extends React.Component {
                     </ModalBody>
                     <ModalFooter>
                         <Button color="primary" onClick={this.toggle}>
-                        Cerrar
+                        Cerrar Modal
                         </Button>
                     </ModalFooter>
                 </Modal>
